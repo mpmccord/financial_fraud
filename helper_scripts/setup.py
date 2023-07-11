@@ -1,0 +1,15 @@
+import setuptools
+setuptools.setup(name='ml_helper_scripts_noc2023',
+                 version='0.1',
+                 description='Helper functions for my ',
+                 url='#',
+                 author='Melanie McCord',
+                 install_requires=['matplotlib==3.7.1',
+                                   "numpy==1.24.3",
+                                   "pandas==1.5.3",
+                                   "scikit_learn==1.2.2",
+                                   "seaborn==0.12.2",
+                                   'setuptools==67.8.0'],
+                 author_email='',
+                 packages=setuptools.find_packages(),
+                 zip_safe=False)
